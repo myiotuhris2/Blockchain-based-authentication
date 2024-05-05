@@ -18,7 +18,7 @@ class UserAccount extends Component {
                                 <Card.Content>
                                     <Card.Header>{this.props.username}</Card.Header>
                                     <Card.Meta>
-                                        <span>user</span>
+                                        <span>voter</span>
                                     </Card.Meta>
                                     <Card.Description>
                                         <strong>
@@ -26,11 +26,9 @@ class UserAccount extends Component {
                                                 this.props.username.charAt(0).toUpperCase() +
                                                 this.props.username.toLowerCase().slice(1)
                                             }
-                                        </strong> is a scientist and Blockchain developer living in Paris, France.
+                                        </strong> is a Voter. Please proceed for the Registration and Verification process on the Voting Site.
                                         <br></br>
-                                        <a href='https://www.linkedin.com/in/samuel-ongala-edoumou/' target='blank'>
-                                            LinkedIn Profile
-                                        </a>
+                                        
                                     </Card.Description>
                                 </Card.Content>
                                 <Card.Content extra>

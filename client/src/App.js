@@ -114,12 +114,11 @@ class App extends Component {
                   this.state.loggedIn ?
                     <Menu.Item
                       position='right'
-                      name='user account'
+                      name='Voting Site'
                       color={color}
-                      active={activeItem === 'user account'}
-                      onClick={this.handleItemClick}
-                      as={Link}
-                      to='/user-account'
+                      active={activeItem === 'Voting Site'}
+                      onClick={() => window.location.href = 'http://localhost:3000/#loaded'}
+                      
                     />
                     :
                     console.log('')
@@ -220,6 +219,7 @@ class App extends Component {
                     />
                   </Route>
               }
+             
             </Switch>
           </BrowserRouter>
         </div>
